@@ -1,0 +1,446 @@
+body{
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar{
+  background: rgba(0,0,0,.8);
+  backdrop-filter: blur(12px);
+}
+.navbar-brand span{
+  color:#0d6efd;
+}
+.nav-link{
+  color:#ddd !important;
+}
+.nav-link:hover{
+  color:#0d6efd !important;
+}
+
+.half-intro{
+  background:#f8f9fa;
+}
+
+.half-intro ul li{
+  margin-bottom:8px;
+  font-weight:500;
+}
+
+.intro-img{
+  max-width:420px;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* Mobile Optimization */
+@media(max-width:768px){
+  .half-intro{
+    text-align:center;
+  }
+}
+
+
+/* .mission-vision */
+
+
+.mission-vision{
+  background:#ffffff;
+}
+
+.mv-card{
+  background:#f8f9fa;
+  border-radius:12px;
+  box-shadow:0 15px 30px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.mv-card:hover{
+  transform:translateY(-8px);
+}
+
+.mv-card .icon{
+  font-size:40px;
+  color:#0d6efd;
+}
+
+/* 
+service design */
+
+
+
+.service-card{
+  background:#ffffff;
+  border-radius:14px;
+  box-shadow:0 15px 35px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.service-card:hover{
+  transform:translateY(-10px);
+}
+
+.service-card .icon{
+  font-size:45px;
+  color:#0d6efd;
+}
+
+
+/* client feedback */
+
+.client-feedback{
+  background:#f8f9fa;
+}
+
+.feedback-card{
+  background:#ffffff;
+  border-radius:14px;
+  box-shadow:0 15px 35px rgba(0,0,0,.08);
+  transition:.3s;
+}
+
+.feedback-card:hover{
+  transform:translateY(-10px);
+}
+
+.feedback-text{
+  font-style:italic;
+}
+
+
+
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:#bbb;
+}
+
+
+
+
+                /* About page  */
+
+/* page title */
+
+.page-title-about{
+  padding:90px 0;
+  background:
+  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+  url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+}
+
+.page-title-about h1{
+  font-size:48px;
+}
+
+.page-title-about p{
+  font-size:16px;
+  color:#ddd;
+}
+
+
+    /* <!-- biography section --> */
+
+    .biography {
+    background-color: #f8f9fa; /* light gray background */
+}
+
+.biography h2 {
+    font-weight: 700;
+}
+
+.biography h5 {
+    font-weight: 500;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #0d6efd; /* Bootstrap primary color */
+}
+
+
+            /* Existing Client section */
+
+            .clients {
+    background-color: #ffffff; /* white background */
+}
+
+.clients h2 {
+    font-weight: 700;
+}
+
+.clients p {
+    font-size: 1rem;
+}
+
+.client-logo {
+    max-height: 80px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* filter: grayscale(100%); */
+}
+
+.client-logo:hover {
+    transform: scale(1.1);
+    /* filter: grayscale(0%); */
+}
+
+
+/* skill information sec */
+
+.skills-words h2 {
+    font-weight: 700;
+}
+
+.skills-words p {
+    font-size: 1rem;
+}
+
+.skills-words .badge {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.skills-words .badge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+                            /* Portfolio page  */
+/* personal info */
+
+.personal-info {
+    background-color: #f8f9fa;
+}
+
+.personal-info h2 {
+    font-weight: 700;
+}
+
+.personal-info p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.personal-details li {
+    font-size: 1rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.personal-details li strong {
+    width: 120px;
+    display: inline-block;
+    color: #0d6efd;
+}
+
+/* 
+educational info */
+
+.education h2 {
+    font-weight: 700;
+}
+
+.education p {
+    font-size: 1rem;
+}
+
+.education-item {
+    border-left: 4px solid #0d6efd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.education-item h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+/* special skill */
+
+.special-skills h2 {
+    font-weight: 700;
+}
+
+.special-skills p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.special-skills h5 {
+    font-weight: 600;
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+.special-skills ul li {
+    font-size: 1rem;
+    padding: 8px 0;
+    line-height: 1.6;
+}
+
+
+
+
+/* training info */
+
+
+.training-info h2 {
+    font-weight: 700;
+}
+
+.training-info p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.training-info h5 {
+    font-weight: 600;
+    color: #0d6efd; /* Bootstrap primary color */
+}
+
+.training-info ul li {
+    font-size: 1rem;
+    padding: 8px 0;
+    line-height: 1.6;
+}
+
+
+/* .working-experience */
+
+
+.working-experience h2 {
+    font-weight: 700;
+}
+
+.working-experience p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.working-experience h5 {
+    font-weight: 600;
+    color: #0d6efd; /* Bootstrap primary color */
+    margin-bottom: 15px;
+}
+
+.working-experience ul {
+    padding-left: 20px;
+}
+
+.working-experience ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+
+
+
+                    /* service page */
+
+                    .services h2 {
+    font-weight: 700;
+}
+
+.services p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.service-card h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #0d6efd;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.service-card .btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
+                                /* contact page */
+
+                                .contact h2 {
+    font-weight: 700;
+}
+
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.contact-info h5,
+.contact-form h5 {
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-form .form-control {
+    border-radius: 8px;
+}
+
+.contact-form .btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.map-container iframe {
+    border-radius: 10px;
+}
+
+
+
+/* work for mediaquery */
+
+
+@media (max-width: 410px) {
+  .page-title-about {
+    padding-bottom: 30px 0;
+  }
+    
+
+
+
+
+}
